@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nkosi Portfolio Website</title>
+    <link rel="stylesheet" href="styles/potfolio-styles.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <a href="#"><span>Nkosi</span>Mbuyisa</a>
+          </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="https://github.com/Nkosinhle">GitHub</a></li>
+          </ul>
+          <button class="hamburger">
+            <div class="bar"></div>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="container">
+        <div class="home-info">
+          <div class="left">
+            <h3>Hello, I'm</h3>
+            <h1>Nkosi Mbuyisa</h1>
+            <h4>And I'm a <span></span><span class="multiple"></span></h4>
+            <p>
+              Hi! I'm <span>Nkosi Mbuyisa</span>, a passionate web developer and
+              aspiring software developer with a broad specialty in web
+              development using <span>HTML, CSS</span>,
+              <span>JavaScript</span> and <span>React.</span> In the software
+              development field, I also have experience with
+              <span>Python, Java</span> as well as <span>C++.</span>
+            </p>
+            <div class="btn">
+              <a
+                href="https://docs.google.com/document/d/11pemDVZPj8o3hzqy5j9IL3qBg9Hxts-y/edit?usp=drive_link&ouid=103073617902846787044&rtpof=true&sd=true"
+              >
+                <button class="resumeButton">Download Resume</button>
+              </a>
+            </div>
+          </div>
+          <div class="right">
+            <div class="profile">
+              <img src="images/Nkosi.jpg" alt="Nkosi Mbuyisa" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section">
+      <div class="container">
+        <h2 class="projects-title">CHECK OUT SOME OF MY WORK</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="images/soft-wear.jpeg" alt="Project 1" />
+            <h3>Soft-Wear</h3>
+            <p>
+              Soft-Wear Apparel's new website. <a href="#">View website</a>.
+            </p>
+          </div>
+          <div class="project-card">
+            <img src="images/project2.jpg" alt="Project 2" />
+            <h3>JackieM Hats</h3>
+            <p>Hat, fascinator and bag store. <a href="#">Visit site</a>.</p>
+          </div>
+          <div class="project-card">
+            <img src="images/gitShot.PNG" alt="Project 3" />
+            <h3>Github</h3>
+            <p>
+              See more projects on my github
+              <a href="https://github.com/Nkosinhle">Explore now</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="enquiry-form-section">
+      <div class="container">
+        <h2 class="section-title">SEND AN ENQUIRY</h2>
+        <form
+          action="https://formspree.io/f/yourformid"
+          method="POST"
+          class="enquiry-form"
+        >
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="submit-button">SEND ENQUIRY</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contact-sidebar">
+        <div class="contact">
+          <img class="contact-picture" src="images/WhatsApp_icon.png" />
+          <p class="contact-details">+27 69 337 0532</p>
+        </div>
+
+        <div class="contact">
+          <img class="contact-picture" src="images/Instagram_icon.png.jpg" />
+          <p class="contact-details">@kxngcozy_</p>
+        </div>
+
+        <div class="contact">
+          <img class="contact-picture" src="images/gmail.png" />
+          <p class="contact-details">cozymbuyisa@gmail.com</p>
+        </div>
+      </div>
+      <p>&copy; 2025 Nkosi Mbuyisa. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+.projects-section {
+  background-color: #323234;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.projects-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
+  margin-top: 15px;
+  font-size: 22px;
+  color: #4a90e2;
+}
+
+.project-card p {
+  color: #ccc;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.project-card a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-center {
+  margin-top: 30px;
+}
+
+.case-studies-btn {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.case-studies-btn:hover {
+  background-color: #357ab8;
+}
+
+@media (max-width: 768px) {
+  .projects-title {
+    font-size: 28px;
+  }
+
+  .project-card h3 {
+    font-size: 18px;
+  }
+
+  .case-studies-btn {
+    padding: 10px 20px;
+  }
+}
+
+.past-projects,
+.enquiry-form-section {
+  padding: 50px 0;
+  background-color: #323234;
+  color: white;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.cta-button,
+.submit-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.cta-button:hover,
+.submit-button:hover {
+  background-color: #357ab8;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+}
+
+.enquiry-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #4a90e2;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+  font-size: 1rem;
+}
+
+.enquiry-form textarea {
+  height: 150px;
+  resize: vertical;
+}
